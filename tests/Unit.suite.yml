@@ -1,0 +1,9 @@
+class_name: UnitTester
+modules:
+     enabled:
+        - Db:
+           dsn: 'mysql:host=localhost;dbname=nhom5'
+           user: 'root'
+           password: ''
+           dump:
+              - 'tests/Support/Data/nhom5.sql'
